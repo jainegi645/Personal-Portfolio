@@ -1,0 +1,40 @@
+.home{
+   display: flex;
+   justify-content: flex-start;
+/*background-repeat: no-repeat;  
+
+background-position: center;*/
+background-size:contain;
+background-position: right;
+background-repeat: no-repeat;
+background-image: url("removebg-mycutout.png"),linear-gradient(to right,#7474BF,#348AC7); /*put image cutout with linear background */
+height: 100vh;
+
+}
+.home .text{
+  margin: auto;
+  width:auto;
+  align-self: center;
+  justify-self: center;
+    
+   
+}
+.home .text>pre{
+  color: black;
+  font-family: 'Prata', serif;
+  font-size: 40px;
+  font-weight:bold;
+   
+
+}
+.home .sidebar{
+  align-content: flex-end;
+  align-items: flex-end;
+  align-self: flex-end;
+
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-contained{
+  margin-top: 15px;
+
+}
