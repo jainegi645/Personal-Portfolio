@@ -1,0 +1,18 @@
+.Background{
+    background-image: linear-gradient(to right,#4568DC,#B06AB3);
+    height:100vh;
+    display:flex;
+    justify-content: space-evenly;
+}
+.contact__form{
+    padding:80px;
+}
+.contact__address{
+    padding-top: 60px;
+    
+}
+.contact__address h2{
+    border-bottom: 2px solid red;
+    font-weight: 600;
+    padding-top: 40px;
+}

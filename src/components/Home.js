@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 
 function Home() {
     return (
-        <div className="home">
+        <div className="home" id="Home__id">
 
 
           <div className='sidebar'>

@@ -1,0 +1,22 @@
+.about__bg{
+   background-image: linear-gradient(to right,#bdc3c7,#2c3e50);
+    height: 100vh;
+    
+}
+.heading h1{
+    float: left;
+    font-size: 80px;
+    font-weight: 400;
+    margin-top: 60px;
+    border-bottom: 4px solid red;
+}
+.avatar__img{
+    left:auto;
+    padding-top:60px;
+}
+.avatar{
+  
+    width:auto;
+    height:auto;
+  
+}

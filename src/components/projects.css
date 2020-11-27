@@ -1,0 +1,23 @@
+.project__bg{
+    background-image:linear-gradient(to right,#74ebd5,#ACB6E5);
+    height:100vh;
+}
+.project__heading h1 {
+    float: left;
+    font-size: 80px;
+    font-weight: 400;
+    margin-top: 60px;
+    border-bottom: 4px solid yellow;
+}
+.projects__show{
+    
+    display: flex;
+    padding-top:80px;
+    justify-content: space-evenly;
+
+    
+}
+.container-fluid{
+    border: 2px solid black;
+    align-content: space-between;
+}
