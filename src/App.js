@@ -79,7 +79,7 @@ duration={500}
             <Route exact path='/Aboutme' component={Aboutme}/>
             <Route exact path='/MyWork' component={Projects} />
             <Route exact path='/Getintouch' component={Getintouch} />
-             <Redirect to ="/"/>
+             <Redirect to ="/Home"/>
           </Switch>
         </div>
     <Home/>
