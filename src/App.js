@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {Layout,Header,Content,Drawer,Navigation,Title} from 'react-mdl';
-import {Link,Switch,Route} from 'react-router-dom';
+import {Link,Switch,Route,Redirect} from 'react-router-dom';
 //import {Link,animateScroll as scroll} from "react-scroll";
 import './App.css';
 import {Navbar} from 'react-bootstrap';
@@ -79,9 +79,7 @@ duration={500}
             <Route exact path='/Aboutme' component={Aboutme}/>
             <Route exact path='/MyWork' component={Projects} />
             <Route exact path='/Getintouch' component={Getintouch} />
-            <Route render={function () {
-              return <p>Not found</p>
-            }} />
+             <Redirect to ="/"/>
           </Switch>
         </div>
 </div>
