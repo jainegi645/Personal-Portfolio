@@ -1,11 +1,27 @@
 .Background{
-    background-image: linear-gradient(to right,#4568DC,#B06AB3);
+    background-color: #101010 !important;
     height:100vh;
-    display:flex;
-    justify-content: space-evenly;
+  display: flex;
+  align-content: center;
+  
+    
+  
 }
+.Contact_title{
+    text-align: left;
+    font-size: 60px;
+    color: #fff;
+    position: relative;
+    align-self: flex-start;
+    padding-top: 160px;
+    padding-left: 80px;
+}
+
 .contact__form{
-    padding:80px;
+    padding:120px;
+    width: 100%;
+    align-self: center;
+    
 }
 .contact__address{
     padding-top: 60px;
@@ -15,4 +31,45 @@
     border-bottom: 2px solid red;
     font-weight: 600;
     padding-top: 40px;
+}
+.form-control{
+    border-style:none none solid !important;
+    background-color: #101010 !important;
+    border-radius: 0!important;
+  
+}
+/*.footer{
+    height:100px;
+    width:auto;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+   position:relative;
+   display:unset;
+}*/
+
+/*media queries*/
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+    .Background{
+        height:100vh;
+       display:grid;
+    align-content:center;
+    justify-content: center;
+    }
+
+    .contact__form{
+        padding:10px;
+        margin-top:50px;
+    }
+    .contact__address{
+        display:none;
+        
+    }
+    .Contact_title{
+        padding-left: 0px;
+        padding-top: 0px;
+        position: static;
+    }
+   
 }

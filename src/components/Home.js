@@ -3,33 +3,35 @@ import './home.css';
 import Socialhandles from './Socialhandles';
 import Button from '@material-ui/core/Button';
 
-
 function Home() {
-    return (
-        <div className="home" id="Home__id">
+  return (
+    <div className="home" id="Home__id">
+
+<div className="Social__links">
+<h3>Follow me</h3>
+</div>
+      <div>
+        <Socialhandles />
+      </div>
 
 
-          <div className='sidebar'>
-        <Socialhandles/>
+      <div className="hero__wrapper">
+
+      <div className="subtitile">
+        Freelance web developer
         </div>
 
-        
+      <div className="hero-title">
+        <h1>jai Negi</h1>
+      </div>
+      <p className="hero__para">
+        Hey there! My name is Jai Negi and I'm a India based web developer with over 4 years of experience.
+        I create websites and webapps.I am really glad that my skills can really put some values in other's life.
+      </p>
+      </div>
+    </div>
 
-        
-          <div className='text'>
-
-       
-
-          <pre>Hello,I am <span style={{color:"yellow"}}>Jai negi</span> <br/>
-          I <span style={{color:"yellow"}}> am a</span><br/>Front End  <span style={{color:"yellow"}}>Web Developer.</span></pre> 
-          <Button style={{background:'#243B55',color:'white',fontSize:'20px', fontFamily: "'Prata', serif"}} variant="contained" >check out my work</Button>
-          </div>
-      
-         
-
-        </div>
-        
-    )
+  )
 }
 
 export default Home;

@@ -10,10 +10,10 @@ import WebIcon from '@material-ui/icons/Web';
 function Socialhandles() {
     return (
         <div className="socialicons">
-        <GitHubIcon style={{ fontSize: 35}}>GitHub</GitHubIcon>
-        <LinkedInIcon style={{ fontSize: 35}} >LinkedIn</LinkedInIcon>
-        <EmailIcon style={{ fontSize: 35}}>E-mail</EmailIcon>
-        <WebIcon style={{ fontSize: 35}}>Website</WebIcon>  
+        <GitHubIcon>GitHub</GitHubIcon>
+        <LinkedInIcon>LinkedIn</LinkedInIcon>
+        <EmailIcon>E-mail</EmailIcon>
+        <WebIcon>Website</WebIcon>  
         </div>
     )
 }

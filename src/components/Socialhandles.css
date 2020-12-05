@@ -1,17 +1,22 @@
 
 .socialicons{
     height: 100vh;
-    display: grid;
-    padding-top: 130px;
-    padding-left: 10px;
-    padding-right: 10px;
-    
+    width:auto;
+    display: flex;
+    align-items: flex-end;
     color: white;
-    background: rgba(29,31,58,0.5); 
-   
-   
-    
-/*background: -webkit-linear-gradient(to bottom, #414345, #232526);  
-background: linear-gradient(to bottom, #414345, #232526); */
+    margin-left: 10%;  
+}
+.MuiSvgIcon-root{
+    font-size: 30px!important;
+    margin-right:20px;
+  
+}
+
+/*Media queries*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.socialicons{
+color: #101010 !important;
+}
 
 }

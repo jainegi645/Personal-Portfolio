@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import {Layout,Header,Content,Drawer,Navigation,Title} from 'react-mdl';
-//import {Link,Switch,Route} from 'react-router-dom';
-import {Link,animateScroll as scroll} from "react-scroll";
+import {Link,Switch,Route} from 'react-router-dom';
+//import {Link,animateScroll as scroll} from "react-scroll";
 import './App.css';
 import {Navbar} from 'react-bootstrap';
 import {Nav} from 'react-bootstrap';
@@ -17,12 +17,13 @@ function App() {
   return (
   <div className='App'>
   <div>
-  <Navbar className="bg"   expand="lg" >
+  <Navbar className="bg"  expand="lg" >
   <Navbar.Brand href="#home"> </Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="m-auto"> {/* m-auto aligned nav in center*/} 
     
+    {/* 
     <Link
     activeClass="active"
     to="Home__id"
@@ -57,13 +58,13 @@ spy={true}
 smooth={true}
 offset={0}
 duration={500}
->GetInTouch</Link>
+>GetInTouch</Link>*/}
+
    
-{/* use This for Routeing,but you cant get smooth scrooling effect using this also "as={Link} for Linking to url address" 
       <Nav.Link as={Link} to="/">Home</Nav.Link>
     <Nav.Link as={Link} to="/Aboutme">Aboutme</Nav.Link>
     <Nav.Link as={Link} to="/MyWork">My Work</Nav.Link>
-  <Nav.Link as={Link} to="/Getintouch">Get in touch</Nav.Link>*/}
+  <Nav.Link as={Link} to="/Getintouch">Get in touch</Nav.Link>
      
     </Nav>
     <Icons/>
@@ -71,7 +72,7 @@ duration={500}
   </Navbar> 
   </div>
 
-{/* 
+
   <div>
           <Switch>
             <Route exact path='/' component={Home} />
@@ -83,11 +84,6 @@ duration={500}
             }} />
           </Switch>
         </div>
-        */}
-        <Home/>
-        <Aboutme/>
-        <Projects/>
-        <Getintouch/>
 </div>
 
 );

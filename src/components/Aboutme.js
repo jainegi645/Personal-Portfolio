@@ -1,20 +1,25 @@
 import React from 'react';
 import './aboutme.css';
-import avatar from './avatar.png';
+import Mystory from "./Mystory";
 
 function Aboutme() {
     return (
+        <div>
         <div className="about__bg" id="Aboutme__id">
 
-        <div className="heading">
-        <h1>About Me</h1>   
+            <section>
+                <div className="about_title">
+                    <h1>About Me</h1>
+                </div>
+            </section>
+           
+        </div>
+        <Mystory/>
         </div>
 
-        <div className="">
-        <img className="avatar" src={require('./avatar.png')} alt="avatar-img"/>
-        </div>
+   
 
-        </div>
+     
     )
 }
 
