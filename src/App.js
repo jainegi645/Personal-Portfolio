@@ -82,6 +82,7 @@ duration={500}
              <Redirect to ="/"/>
           </Switch>
         </div>
+    <Home/>
 </div>
 
 );
