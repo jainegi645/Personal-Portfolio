@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   
+=======
+  "homepage":"http://jainegi645.github.io/portfolio",
+>>>>>>> f59567fd0731a56c9f207ce85f796a2eb2671973
   "name": "website2",
   "version": "0.1.0",
   "private": true,
@@ -20,6 +24,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

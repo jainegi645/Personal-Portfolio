@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import React, { Component } from 'react';
 //import { Layout, Header, Content, Drawer, Navigation, Title } from 'react-mdl';
 import { Link, Switch, Route } from 'react-router-dom';
+=======
+import React,{Component} from 'react';
+import {Layout,Header,Content,Drawer,Navigation,Title} from 'react-mdl';
+import {Link,Switch,Route,Redirect} from 'react-router-dom';
+>>>>>>> f59567fd0731a56c9f207ce85f796a2eb2671973
 //import {Link,animateScroll as scroll} from "react-scroll";
 import './App.css';
 import Home from "./components/Home";
@@ -94,7 +100,21 @@ duration={500}
   </div>
  */}
 
+<<<<<<< HEAD
     </div>
+=======
+  <div>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/Aboutme' component={Aboutme}/>
+            <Route exact path='/MyWork' component={Projects} />
+            <Route exact path='/Getintouch' component={Getintouch} />
+             <Redirect to ="/Home"/>
+          </Switch>
+        </div>
+    <Home/>
+</div>
+>>>>>>> f59567fd0731a56c9f207ce85f796a2eb2671973
 
   );
 }
