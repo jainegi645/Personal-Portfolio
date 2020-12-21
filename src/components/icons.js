@@ -9,9 +9,9 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 function Icons() {
     return (
         <div className="icons__style">
-        <FacebookIcon style={{ fontSize: 40}}></FacebookIcon>
-        <InstagramIcon style={{ fontSize: 40}} ></InstagramIcon>
-        <TwitterIcon style={{ fontSize: 40}}></TwitterIcon>
+        <FacebookIcon></FacebookIcon>
+        <InstagramIcon  ></InstagramIcon>
+        <TwitterIcon ></TwitterIcon>
        
         </div>
     )

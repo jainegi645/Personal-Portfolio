@@ -121,3 +121,52 @@
     }
 
 }
+@media only screen and (min-device-width:481px) and (max-device-width:768px){
+    .about_title>h1{
+       
+        font-size: 14vw;
+        padding-right: 40px;
+        color: #101010;
+    }
+    .story__title{
+        font-size: 18vw;
+        margin-left: 0px;
+        padding-bottom: 50px;
+    }
+    .about-para{
+        column-count: 1;
+     padding:0px !important;
+     width: 85vw;
+     text-align: left;
+    }
+    .skill_section{
+    display: grid;
+    
+    }
+
+    .skill_title{
+        justify-content: center;
+        padding-right: 0px;
+        font-size: 18vw;
+        padding-bottom: 60px;
+    }
+    .My_skills{
+        width: 110%;
+    }
+    .my_experience{
+        display:grid;
+        height:80vh;
+        align-content:center;
+        justify-content: center;
+    }
+    .experince_title{
+        margin-left: 0px;
+        padding-right: 0px; 
+        font-size: 18vw;
+        padding-bottom: 60px;
+    }
+    .past_experiences{
+        padding: auto 10px;
+    }
+  
+}

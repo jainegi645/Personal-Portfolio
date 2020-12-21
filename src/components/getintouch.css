@@ -73,3 +73,25 @@
     }
    
 }
+@media only screen and (max-device-width:481px) and (max-device-width:768px){
+    .Background{
+        height:100vh;
+       display:grid;
+    align-content:center;
+    justify-content: center;
+    }
+
+    .contact__form{
+        padding:10px;
+        margin-top:70px;
+    }
+    .contact__address{
+        display:none;
+        
+    }
+    .Contact_title{
+        padding-left: 0px;
+        padding-top: 0px;
+        position: static;
+    }
+}

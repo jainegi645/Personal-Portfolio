@@ -7,10 +7,12 @@ background-size:contain;
 background-position: right;
 background-color: #101010;
 background-repeat: no-repeat;
-background-image: url("background.jpg"); /*put image cutout with linear background */
+background-image: url("home-bg.jpg"); /*put image cutout with linear background */
 width: 100%;
 height:100vh;
 }
+
+
 .hero__wrapper{
   position:absolute;
   margin: auto;
@@ -22,7 +24,6 @@ height:100vh;
 
 }
 .subtitile{
- 
   display: inline-block;
   font-size: 1.9vw;
   line-height: 2.1vw;
@@ -30,8 +31,8 @@ height:100vh;
   text-transform: capitalize;
 color: white;
 font-family: Questrial,sans-serif;
-
 }
+
 .hero-title{
  
     margin-top: 0;
@@ -93,16 +94,15 @@ left: 2%;
     justify-content: center;
     left: 20%;
     bottom: 19%;
+   
   }
   .subtitile{
- 
     display: inline-block;
     font-size: 15px;
     line-height: 2.1vw;
     letter-spacing: .5px;
     text-transform: capitalize;
-  color:  #101010;
-  font-family: Questrial,sans-serif;
+    font-family: Questrial,sans-serif;
   
   }
   .hero-title{
@@ -114,7 +114,7 @@ left: 2%;
   }
   .hero-title>h1{
     font-size: 50px;
-    color:#101010;
+  
     line-height: 40px;
     font-weight: 500;
     text-transform: capitalize;
@@ -123,10 +123,10 @@ left: 2%;
   .hero__para{
     max-width:70vw;
     font-size: 16px;
-    color:#101010;
+ 
   }
   .home .Social__links h3{
-    color: #101010;
+    color: #fff;
   }
 
   .navbar-toggler{
@@ -134,40 +134,42 @@ left: 2%;
   }
   
 }
- /* .home{
-    background-position: bottom;
-    height:100vh;
-    background-size: contain;
-    width: auto;
-    height:auto;
-    background-size:contain;
+
+@media only screen and (min-device-width : 481px) and (max-device-width:768px) {
+  .home{
+    background-size:cover;
   }
- 
-  .home .text{
-    margin-top:125%;
-    width:auto;   
-  }
+  .hero__wrapper{
   
-  .home .text>p{
-    color: black;
-    font-family: 'Prata', serif;
-    font-size: 24px;
-    font-weight:bold; 
-    
-    text-align:center;
-   
+    left: 12%;
+    bottom: 20%;
+  }
+  .hero-title>h1{
+ font-size:60px;
+ color: #101010;
+ line-height: 50px;
+
+  }
+  .hero__para{
+    max-width:80vw;
+    color: #101010;
+  }
+  .subtitile{
+    color: #101010;
+    font-size: 20px;
+
+  }
+  .home .Social__links h3{
+    color: #101010;
+    line-height: 20px;
+  }
+
+  .navbar-toggler{
+    background-color: #343a40!important;
   }
 
 
-
-  .MuiButtonBase-root.MuiButton-root.MuiButton-contained{
-  font-size:15px;
-  background-color:rgba(255, 0, 0, 0.986);
-  border-radius: 10px;
- margin-top:5px!important;
- margin-bottom:10px; 
-  }
-*/
+}
 
 
 
